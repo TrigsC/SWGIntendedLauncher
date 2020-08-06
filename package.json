@@ -1,11 +1,11 @@
 {
   "name": "intended-launcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TrigsC/Intended-Launcher.git"
+    "url": "https://github.com/TrigsC/SWGIntendedLauncher.git"
   },
   "scripts": {
     "start": "electron .",
