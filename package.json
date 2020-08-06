@@ -1,0 +1,34 @@
+{
+  "name": "intended-launcher",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrigsC/Intended-Launcher.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "productName": "SWG Intended Launcher",
+  "author": "SWG Intended Trigsc",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.2",
+    "electron-builder": "^22.8.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "app-root-dir": "^1.0.2",
+    "async": "^3.2.0",
+    "async-exit-hook": "^2.0.1",
+    "electron-is-dev": "^1.2.0",
+    "electron-log": "^4.2.2",
+    "electron-updater": "^4.3.4",
+    "follow-redirects": "^1.12.1",
+    "random-access-file": "^2.1.4",
+    "request": "^2.88.2"
+  }
+}
